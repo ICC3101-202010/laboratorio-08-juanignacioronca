@@ -16,5 +16,16 @@ namespace Laboratorio_08_Juan_Roncagliolo
         {
             InitializeComponent();
         }
+        
+        private void button_Agregar_Local_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            agregar_Local1.Hide();
+            mostrar_Locales1.Hide();  
+        }
     }
 }
