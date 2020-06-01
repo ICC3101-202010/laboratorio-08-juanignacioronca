@@ -12,6 +12,7 @@ namespace Laboratorio_08_Juan_Roncagliolo
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -19,6 +20,8 @@ namespace Laboratorio_08_Juan_Roncagliolo
         
         private void button_Agregar_Local_Click(object sender, EventArgs e)
         {
+            agregar_Local1.Show();
+            mostrar_Locales1.Hide();
 
         }
 
@@ -26,6 +29,13 @@ namespace Laboratorio_08_Juan_Roncagliolo
         {
             agregar_Local1.Hide();
             mostrar_Locales1.Hide();  
+        }
+
+        private void button_Locales_existentes(object sender, EventArgs e)
+        {
+            agregar_Local1.Hide();
+            mostrar_Locales1.Show();
+
         }
     }
 }

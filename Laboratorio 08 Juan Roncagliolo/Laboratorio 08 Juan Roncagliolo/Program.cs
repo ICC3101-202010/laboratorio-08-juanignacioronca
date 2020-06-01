@@ -8,6 +8,7 @@ namespace Laboratorio_08_Juan_Roncagliolo
 {
     static class Program
     {
+        
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>

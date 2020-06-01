@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace Laboratorio_08_Juan_Roncagliolo
 {
-    public class Tiendas:Locales
+    public class Recreacional:Locales
     {
-        public List<string> Categorias;
-        public Tiendas(string nombre, string dueño, int id, string horario, List<string> categorias)
+        public Recreacional(string nombre, string dueño, int id, string horario)
         {
             Nombre = nombre;
             Dueño = dueño;
             ID = id;
             Horario = horario;
-            Categorias = categorias;
         }
     }
 }

@@ -12,5 +12,10 @@ namespace Laboratorio_08_Juan_Roncagliolo
         public string Dueño;
         public int ID;
         public string Horario;
+
+        
+
+
+
     }
 }
